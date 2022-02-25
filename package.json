@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/juan-ruiz/movie-analyst-api.git"
+    "url": "git+https://github.com/DavidSanchez2000/movie-analyst-ui"
   },
   "author": "Juan Ruiz",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/juan-ruiz/movie-analyst-api/issues"
+    "url": "https://github.com/DavidSanchez2000/movie-analyst-ui/issues"
   },
-  "homepage": "https://github.com/juan-ruiz/movie-analyst-api#readme",
+  "homepage": "https://github.com/DavidSanchez2000/movie-analyst-ui/#readme",
   "dependencies": {
     "auth0-api-jwt-rsa-validation": "0.0.1",
     "express": "^4.15.2",
