@@ -5,7 +5,7 @@ async function main () {
   try {
     const pool = mysql.createPool({
       connectionLimit: 10,
-      host: process.env.DB_HOST || '10.200.48.2:3000',
+      host: process.env.DB_HOST || '10.200.48.2',
       user: process.env.DB_USER || 'root',
       password: process.env.DB_PASS || 'admin',
       database: process.env.DB_NAME || 'movie_db'
