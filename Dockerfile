@@ -1,4 +1,4 @@
-FROM node:12
+FROM node:16
 
 #create app directory
 WORKDIR /usr/source/app
@@ -8,7 +8,7 @@ WORKDIR /usr/source/app
 COPY . .
 #COPY package*.json ./
 EXPOSE 3000
-#ENV BACKEND_URL=http://10.0.3.3
+ENV PORT = 3000
 RUN npm install 
 
 
