@@ -1,18 +1,16 @@
-FROM node:12
+FROM node:12-alpine
 
 #create app directory
-WORKDIR /usr/source/app
+WORKDIR /movie-analyst-api
 #Install app dependencies
 
 COPY . .
 #COPY package*.json ./
 EXPOSE 3000
 #ENV PORT = 3000
-RUN npm install 
+RUN npm install
 
 
 #COPY . .
-
-CMD npm start
-
+CMD [ "node", "/movie-analyst-ui/server.js" ]
 #CMD ["npm", "start"]
