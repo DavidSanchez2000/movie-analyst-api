@@ -5,13 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "start": "SET NODE_ENV=dev && node server.js"
+    "start": "NODE_ENV=dev && node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DavidSanchez2000/movie-analyst-ui"
   },
-  "author": "Juan Ruiz",
+  "author": "David Sanchez",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/DavidSanchez2000/movie-analyst-ui/issues"
