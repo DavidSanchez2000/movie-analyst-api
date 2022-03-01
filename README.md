@@ -1,5 +1,8 @@
 # movie-analyst-api
-API for the movie analyst application of the devops ramp-up
+
+DevOps Ramp-Up Endava intership 2022-1
+
+API for the movie analyst application
 
 David Alejandro Sánchez Arias
 DevOps intern
